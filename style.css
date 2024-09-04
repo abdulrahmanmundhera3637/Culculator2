@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+#culculator {
+    border: 1px solid rgb(187,183,183);
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(235, 235, 27);
+    box-shadow: 0px 0px 75px rgb(31, 29, 29);
+}
+
+#display {
+    margin: 10px;
+    width: 170px;
+    font-size: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+h1 {
+    margin-top: 70px;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 136px; 
+}
